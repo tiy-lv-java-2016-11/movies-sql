@@ -78,13 +78,3 @@ SELECT title, rating
 FROM movies
   LEFT JOIN ratings on movies.movieid = ratings.movieid
 WHERE ratings.rating is NULL;
-
-
-
-
-
-
-
-
-
-
